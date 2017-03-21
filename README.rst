@@ -1,7 +1,7 @@
 micropython library to calibrate and use a sound sensor KY038
 ##############################################################
 
-This library helps calibrating a sound sensor KY038 with the micro:bit. It also provides a clap counter functionality. It assumes the Digital output of the sound sensor is connected to pin0 of the micro:bit.
+This library helps calibrating a sound sensor KY038 with the micro:bit. It also provides a clap counter functionality. It assumes the Digital output of the sound sensor is connected to pin0 of the micro:bit. It uses an analog input, since the digital input seems not to be very reliable powering the sensor with 3V. Power and ground of the sensor are also connected to the micro:bit. 
 
 
 .. contents::
